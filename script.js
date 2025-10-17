@@ -6,13 +6,7 @@ let currentTurn = 1;
 let selectedPiece = null;
 
 // Randomly assign this browser as player 1 or 2
-let playerId = 0; /* localStorage.getItem('checkersPlayer');
-if (!playerId) {
-  playerId = Math.random() > 0.5 ? 1 : 2;
-  localStorage.setItem('checkersPlayer', playerId);
-}
-playerId = parseInt(playerId);
-*/
+let playerId = 0; 
 // Build tiles
 for (let r = 0; r < 8; r++) {
   for (let c = 0; c < 8; c++) {
